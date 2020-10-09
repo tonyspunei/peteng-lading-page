@@ -52,3 +52,79 @@ main {
 }
 
 /* HERO SECTION */
+.hero-section {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-left-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 8rem;
+}
+
+.text-left-side h1 {
+  font-size: 7rem;
+  font-family: fantasy;
+  color: #fff;
+  line-height: 9rem;
+}
+
+.text-left-side p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  color: #b0b0b4;
+  margin-top: 4rem;
+  line-height: 3rem;
+}
+
+.img {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down-text {
+  height: 5rem;
+  width: 15rem;
+  transform: rotate(270deg);
+}
+
+.scroll-down-text a {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down-text a .left-arrow {
+  height: 28px;
+  width: 28px;
+  margin-right: 1rem;
+}
+
+.scroll-down-text a p {
+  text-decoration: none;
+  color: #fdfcfd;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  border-radius: 6px;
+}
