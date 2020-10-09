@@ -275,6 +275,9 @@ main {
 
 /* Media Queries */
 @media (max-width: 600px) {
+  main {
+    height: 100%;
+  }
   .menu-wrapp {
     opacity: 1;
     user-select: all;
@@ -299,6 +302,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   .text-left-side {
     height: 50%;
@@ -344,6 +348,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   .text-left-side {
     height: 50%;
@@ -371,6 +376,9 @@ main {
     opacity: 1;
     user-select: all;
     visibility: visible;
+  }
+  main {
+    height: 100%;
   }
 }
 
